@@ -1,6 +1,7 @@
 # Variáveis de ambiente (NUNCA subir ao git)
 .env
 .env.*
+*.local
 !.env.example
 
 # Python
@@ -10,6 +11,8 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+.mypy_cache/
+.ruff_cache/
 
 # Ambientes virtuais
 venv/
@@ -43,6 +46,9 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Build / infra
+cdk.out/
 
 # Pasta clonada temporariamente
 FinOps-agent/

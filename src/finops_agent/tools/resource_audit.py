@@ -1,0 +1,1 @@
+# detecção de recursos sem tag

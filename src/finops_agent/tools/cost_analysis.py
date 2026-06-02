@@ -1,0 +1,1 @@
+#lógica de custo (pura, testável)
